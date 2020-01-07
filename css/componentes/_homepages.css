@@ -1,0 +1,14 @@
+.contenedor--home {
+  width: 1300px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[3];
+  grid-template-rows: repeat(3, 1fr); }
+
+.caja--grande {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3; }
